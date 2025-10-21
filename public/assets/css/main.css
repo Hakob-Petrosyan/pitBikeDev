@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+.width-container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
