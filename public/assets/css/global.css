@@ -7,9 +7,86 @@
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body{
     background-color: var(--color-tire);
     color:var(--color-white);
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-section{
+    margin-top: 128px;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.resetListStyle{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+dl{
+    margin: 0;
+}
+
+.flexBox{
+    display: flex;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexAlignCenter{
+    display: flex;
+    align-items: center;
+}
+.flex__row__column{
+    display: flex;
+    flex-direction: row;
+}
+.flexJustifyBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.textUppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .width-container{
+        padding-left: 16px;
+        right: 16px;
+    }
+    .page-section{
+        margin-top: 80px;
+    }
+    .flex__row__column{
+        flex-direction: column;
+    }
 }

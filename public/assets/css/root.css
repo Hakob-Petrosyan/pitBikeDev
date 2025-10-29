@@ -9,3 +9,10 @@
     --pop-up-brand-20: #8b6a5b;
     --color-add-brand:#FE6B29;
 }
+
+.color__smoke{
+    color: var(--color-smoke);
+}
+.color__dust{
+    color: var(--color-dust);
+}

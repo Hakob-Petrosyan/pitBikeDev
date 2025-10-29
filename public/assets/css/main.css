@@ -1,1 +1,53 @@
+.breadcrumbs-section{
+    margin-top: 8px;
+    padding: 8px 0;
+}
+.breadcrumbs{
+    gap: 12px;
+}
+.breadcrumbs a:after{
+    content: '/';
+    margin-left: 12px;
+}
+.breadcrumbs a{
+    color: var(--color-dust);
+}
 
+
+
+
+
+
+
+
+/*footer*/
+
+
+.footer__word-logo{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 246px;
+    background-image: url("/assets/images/main/footer-word-logo.webp");
+}
+
+.footer__word-logo img{
+    position: absolute;
+    width: 480px;
+    aspect-ratio: 1;
+    left: 40%;
+}
+
+.footer-bottom{
+    margin: 48px 0 24px;
+    align-items: end;
+    gap: 16px;
+}
+.footer-requisites__item{
+    gap: 4px;
+    font-weight: 500;
+}
+
+
+
+/*END footer*/

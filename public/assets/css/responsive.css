@@ -1,0 +1,14 @@
+
+@media (max-width: 992px) {
+    .footer-bottom{
+        flex-direction: column;
+        margin: 16px 0 20px;
+        align-items: center;
+    }
+    .site-creator-logo svg{
+        width: 107px;
+    }
+    .footer-requisites{
+       align-items: center;
+    }
+}
