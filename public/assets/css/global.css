@@ -28,9 +28,47 @@ a{
     text-decoration: none;
 }
 
+
+
+
+
+
 button{
     border: none;
     background: none;
+}
+
+.btn-custom{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    padding: 0 65px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-skew{
+    transform: skew(-10deg);
+}
+
+.btn-skew span {
+    /*transform: skew(10deg);*/
+}
+
+.btn__white{
+    background-color: var(--color-white);
+    color: var(--color-brand);
+    border: 2px solid var(--color-brand);
+}
+
+
+
+
+
+
+img{
+    width: 100%;
 }
 
 .resetListStyle{
@@ -39,8 +77,20 @@ button{
     margin: 0;
 }
 
-dl{
-    margin: 0;
+.textUppercase{
+    text-transform: uppercase;
+}
+.pageTitle{
+    font-style: italic;
+    font-weight: 800;
+}
+
+.w-100{
+    width: 100%;
+}
+.mw-fitContent{
+    display: flex;
+    max-width: fit-content;
 }
 
 .flexBox{
@@ -70,9 +120,6 @@ dl{
 
 
 
-.textUppercase{
-    text-transform: uppercase;
-}
 
 
 
@@ -81,12 +128,24 @@ dl{
 @media (max-width: 992px) {
     .width-container{
         padding-left: 16px;
-        right: 16px;
+        padding-right: 16px;
     }
     .page-section{
         margin-top: 80px;
     }
     .flex__row__column{
         flex-direction: column;
+    }
+
+    .footer-nav,
+    .footer__legal-wrapper{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-content-menu{
+        gap: 28px;
+    }
+    .footer-menu-list ul li a{
+
     }
 }

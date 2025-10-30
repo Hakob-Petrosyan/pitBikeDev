@@ -1,5 +1,5 @@
 {
-  "name": "pitbike",
+  "name": "dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.1.7",
+    "vite": "^7.1.12",
     "vite-plugin-handlebars": "^2.0.0"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.8"
   }
 }
