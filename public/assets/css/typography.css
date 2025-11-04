@@ -127,6 +127,8 @@ h1,
 .h1 {
     font-size: 230px;
     line-height: 100%;
+    font-style: italic;
+    font-weight: 800;
 }
 
 h2,
@@ -145,6 +147,8 @@ h4,
 .h4{
     font-size: 40px;
     line-height: 100%;
+    font-style: italic;
+    font-weight: 800;
 }
 
 h5,
@@ -198,6 +202,7 @@ h6,
     h4,
     .h4{
         font-size: 28px;
+        font-weight: 600;
     }
 
     h5,

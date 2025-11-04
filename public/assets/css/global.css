@@ -49,12 +49,21 @@ button{
 }
 
 .btn-skew{
-    transform: skew(-10deg);
+    transform: skew(-12deg);
 }
 
-.btn-skew span {
-    /*transform: skew(10deg);*/
+.reset-skew {
+    transform: skew(12deg);
 }
+
+.btn-skew-reverse{
+    transform: skew(12deg);
+}
+
+.reset-skew-reverse{
+    transform: skew(-12deg);
+}
+
 
 .btn__white{
     background-color: var(--color-white);
@@ -117,6 +126,79 @@ img{
     display: flex;
     justify-content: space-between;
 }
+
+.page-title__section{
+    text-align: center;
+}
+
+
+.marquee{
+    padding: 4px 0;
+    overflow: hidden;
+    background-color: var(--color-white);
+    color: var(--color-tire);
+}
+
+.marquee-text .marquee-text-track {
+    display: flex;
+    padding-left: 4.8rem;
+    gap: 12px;
+    width: max-content;
+    animation: marquee-text 15s infinite linear;
+}
+.marquee-text-track p {
+    position: relative;
+    white-space: nowrap;
+}
+
+@keyframes marquee-text {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.333%);
+    }
+}
+
+
+
+
+.slider-section-top{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.slider-section-top:before{
+    content: '';
+    display: block;
+}
+.slider-section-top:before,
+.slider-controls{
+    width: 100%;
+    max-width: 340px;
+}
+.slider-controls{
+    gap: 12px;
+}
+
+.textCenter{
+    text-align: center;
+}
+.slider-container{
+    margin-top: 56px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider-control-btn{
+    height: 56px;
+    width: 78px;
+}
+
+
+
+
+
 
 
 

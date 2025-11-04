@@ -13,10 +13,7 @@
     color: var(--color-dust);
 }
 
-.header-container{
-    height: 100px;
-    /*width: calc(100% + 20px);*/
-}
+
 .contacts__mail{
     gap: 8px;
 }
@@ -189,9 +186,68 @@
     gap: 24px;
     align-items: center;
 }
-
-
 /*END 404 error*/
+
+
+/*tours*/
+.page-title{
+    margin-top: 16px;
+    background: radial-gradient(188.39% 74.95% at 33.38% 84.35%, #F77F49 0%, #F44C00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tours__marquee{
+    margin-top: 116px;
+}
+
+.advantages-section{
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.advantages__icon{
+    height: 56px;
+    width: 56px;
+    padding: 12px;
+    background-color: var(--color-mustache);
+}
+.advantages__item{
+    gap: 16px;
+    border: 1px solid var(--color-mustache);
+    padding: 20px;
+}
+
+
+
+/*END tours*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .mb-show{
@@ -199,6 +255,9 @@
 }
 
 @media (hover: hover){
+    button:hover{
+        cursor: pointer;
+    }
     .menu__dropdown-list a:hover{
         background-color: var(--color-brand);
         color: var(--color-white);

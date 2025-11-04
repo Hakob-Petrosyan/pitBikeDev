@@ -3,17 +3,29 @@
 
 {{> head }}
 
+<style>
+  .pages-wrapper{
+    display: flex;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  .pages-wrapper a{
+    font-size: 22px;
+  }
+</style>
+
 <body>
 
 {{> header }}
 
-<main>
+<main class="width-container">
 
-  <a href="404.html" target="_blank">404</a>
+  <div class="pages-wrapper">
+    <a href="404.html" target="_blank">404</a>
+    <a href="tours.html">Туры</a>
+  </div>
 
-  <br>
-
-  {{> test}}
+  
 </main>
 
 
