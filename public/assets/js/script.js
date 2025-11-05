@@ -49,6 +49,25 @@ function initMarquees() {
         }
     });
 }
+function initTabs() {
+    document.querySelectorAll('[data-tabs-block]').forEach(tabsBlock => {
+        const panes = tabsBlock.querySelectorAll('[data-panes] [data-pane]');
+        const containers = tabsBlock.querySelectorAll('[data-container]');
+        panes.forEach((pane, index) => {
+            pane.addEventListener('click', () => {
+                panes.forEach(item => item.classList.remove('active'));
+                containers.forEach(container => container.classList.remove('active'));
+                pane.classList.add('active');
+                containers[index].classList.add('active');
+            });
+
+            if (panes.length > 0 && containers.length > 0) {
+                panes[0].classList.add('active');
+                containers[0].classList.add('active');
+            }
+        });
+    });
+}
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -56,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileMenu()
     closeMobileMenu()
     initMarquees()
+    initTabs()
 })
 
 
@@ -86,7 +106,11 @@ function initSliders() {
             paginationType,
             paginationTypeTablet,
             paginationTypeMobile,
+
         } = sliderItem.dataset;
+
+
+
 
         const mobileGroup = parseInt(slidesGroupMobile) || 1;
         const tabletGroup = parseInt(slidesGroupTablet) || 1;

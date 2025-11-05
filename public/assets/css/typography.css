@@ -116,8 +116,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, h2, h3, h4, h5, .t1, .t3{
     font-family: "Roboto Condensed";
-}
 
+}
+h1, h2, h3, h4, h5, h6, .t1{
+    text-transform: uppercase;
+}
 .t2, .t-caption, h6{
     font-family: 'Oswald';
 }
@@ -155,12 +158,14 @@ h5,
 .h5{
     font-size: 32px;
     line-height: 100%;
+    font-weight: 500;
 }
 
 h6,
 .h6{
     font-size: 24px;
     line-height: 120%;
+    font-weight: 500;
 }
 
 .t1{
@@ -180,6 +185,8 @@ h6,
 .t-caption{
     font-size: 12px;
     line-height: 120%;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 
@@ -201,7 +208,7 @@ h6,
 
     h4,
     .h4{
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 600;
     }
 

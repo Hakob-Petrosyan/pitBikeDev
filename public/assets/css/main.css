@@ -1,142 +1,175 @@
-.breadcrumbs-section{
+.breadcrumbs-section {
     margin-top: 8px;
     padding: 8px 0;
 }
-.breadcrumbs{
+
+.breadcrumbs {
     gap: 12px;
 }
-.breadcrumbs a:after{
+
+.breadcrumbs a:after {
     content: '/';
     margin-left: 12px;
 }
-.breadcrumbs a{
+
+.breadcrumbs a {
     color: var(--color-dust);
 }
 
+.header-bar .contacts__mail {
+    padding-left: 20px;
+}
 
-.contacts__mail{
+.contacts__mail {
     gap: 8px;
 }
-.header-bar{
+
+.header-bar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     align-items: center;
 }
-.header-bar .contacts__mail{
+
+.header-bar .contacts__mail {
     height: 32px;
 }
-.header-phone{
+
+.header-phone {
     height: 40px;
     padding: 0 12px 0 16px;
     width: fit-content;
     gap: 12px;
 }
-.header-phone__text{
+
+.header-phone__text {
     border-right: 1px solid var(--color-white);
     padding-right: 12px;
     height: 100%;
     font-weight: 500;
     white-space: nowrap;
 }
-.header-bar__contacts{
+
+.header-bar__contacts {
     gap: 20px;
     justify-content: end;
 }
-.schedule-content{
+
+.schedule-content {
     text-align: center;
 }
-.header-menu{
+
+.header-menu {
     gap: 40px;
 }
-.header-menu a{
+
+.header-menu a {
     color: var(--color-tire);
     padding: 8px 0;
     text-transform: uppercase;
     font-weight: 500;
     transition: color 300ms;
 }
-.menu__dropdown-item .menu__dropdown-link svg{
+
+.menu__dropdown-item .menu__dropdown-link svg {
     transform: scale(1, 1);
     transition: transform 300ms;
 }
-.menu__dropdown-link{
+
+.menu__dropdown-link {
     gap: 4px;
 }
-.menu__dropdown-item{
+
+.menu__dropdown-item {
     position: relative;
     display: flex;
     justify-content: center;
 }
-.menu__dropdown-list{
+
+.menu__dropdown-list {
     position: absolute;
     display: none;
     top: 100%;
 }
-.menu__dropdown-list a{
+
+.menu__dropdown-list a {
     display: flex;
     justify-content: center;
     padding: 8px 16px;
     transition: background-color 300ms, color 300ms;
 }
-.menu__dropdown-list li:not(:last-child) a{
+
+.menu__dropdown-list li:not(:last-child) a {
     border-bottom: 1px solid var(--color-brand);
 }
 
 /*footer*/
-.footer-content{
+.footer-content {
     gap: 290px;
     position: relative;
     z-index: 2;
 }
-.logo-wrapper{
+
+.logo-wrapper {
     width: fit-content;
     height: 56px;
     padding: 8px 20px;
 }
-.footer__legal-info{
+
+.footer__legal-info {
     justify-content: space-between;
 }
-.footer__legal-wrapper a{
+
+.footer__legal-wrapper a {
     padding: 8px 0;
     text-transform: uppercase;
     white-space: nowrap;
 }
-.footer-nav{
+
+.footer-nav {
     gap: 112px;
 }
-.footer-content-menu{
+
+.footer-content-menu {
     justify-content: space-between;
     gap: 100px;
 }
-.footer-menu-list{
+
+.footer-menu-list {
     text-transform: uppercase;
     font-weight: 500;
     gap: 8px;
 }
-.footer-menu-list ul li a{
+
+.footer-menu-list ul li a {
     display: flex;
     padding: 8px 0;
     white-space: nowrap;
 }
-.footer-contacts{
+
+.footer-contacts {
     max-width: 360px;
     gap: 20px;
 }
-.footer-contacts .t2{
+
+.footer-contacts .t2 {
     text-transform: uppercase;
 }
-.footer-contacts__wrapper{
+
+.footer-contacts__wrapper {
     gap: 12px;
 }
-.soc-item{
+
+.soc-item {
     height: 32px;
     width: 32px;
 }
-.footer-contacts__phone{
+
+.footer-contacts__phone {
     font-weight: 500;
 }
-.footer__word-logo{
+
+.footer__word-logo {
     margin-top: 19px;
     justify-content: center;
     align-items: center;
@@ -147,50 +180,59 @@
     padding: 0 26% 2% 39%;
     aspect-ratio: 1400/240;
 }
-.footer__word-logo img{
+
+.footer__word-logo img {
     width: 100%;
     max-width: 480px;
     aspect-ratio: 1;
 }
-.footer-bottom{
+
+.footer-bottom {
     margin: 48px 0 24px;
     align-items: end;
     gap: 16px;
 }
-.footer-requisites__item{
+
+.footer-requisites__item {
     gap: 4px;
     font-weight: 500;
 }
-.footer__word-subLogo{
+
+.footer__word-subLogo {
     padding-left: 62%;
     margin-top: 23px;
     position: relative;
     z-index: 2;
 }
-.footer__word-subLogo svg{
+
+.footer__word-subLogo svg {
     width: 100%;
     height: fit-content;
 }
+
 /*END footer*/
 
 
 /*404 error*/
-.error-content-image{
+.error-content-image {
     width: 100%;
     max-width: 320px;
 }
-.error-page-content{
+
+.error-page-content {
     align-items: center;
 }
-.error-content__bottom{
+
+.error-content__bottom {
     gap: 24px;
     align-items: center;
 }
+
 /*END 404 error*/
 
 
 /*tours*/
-.page-title{
+.page-title {
     margin-top: 16px;
     background: radial-gradient(188.39% 74.95% at 33.38% 84.35%, #F77F49 0%, #F44C00 100%);
     background-clip: text;
@@ -198,80 +240,127 @@
     -webkit-text-fill-color: transparent;
 }
 
-.tours__marquee{
+.tours__marquee {
     margin-top: 116px;
 }
 
-.advantages-section{
+.advantages-section {
     margin-top: 56px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
-.advantages__icon{
+
+.advantages__title {
+    text-transform: uppercase;
+    word-break: break-word;
+}
+
+.advantages__icon {
     height: 56px;
     width: 56px;
     padding: 12px;
     background-color: var(--color-mustache);
 }
-.advantages__item{
+
+.advantages__item {
     gap: 16px;
     border: 1px solid var(--color-mustache);
     padding: 20px;
 }
-
-
-
 /*END tours*/
 
 
+/*gallery slider section */
+.telegram-promo {
+    align-items: center;
+    margin-top: 48px;
+    padding: 12px 60px;
+    gap: 80px;
+}
+
+.telegram-promo__title {
+    gap: 16px;
+    white-space: nowrap;
+}
+
+.telegram-promo__title-decoration {
+    text-decoration: underline;
+}
+
+.telegram-promo__description{
+    max-width: 454px;
+}
+
+.gallery-card{
+    display: flex;
+    height: 400px;
+}
+
+.gallery-card img{
+    height: 100%;
+    object-fit: cover;
+}
+/*END gallery slider section */
 
 
+/*reviews slider section */
+.reviews-card {
+    gap: 16px;
+}
+
+.reviews-section__bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-smoke);
+    gap: 24px;
+}
+
+.reviews-section__icons {
+    gap: 20px;
+}
+
+.reviews-link {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+}
+
+/*END reviews slider section */
+
+.our-tours{
+    margin-top: 32px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mb-show{
+.mb-show {
     display: none;
 }
 
-@media (hover: hover){
-    button:hover{
+@media (hover: hover) {
+    button:hover {
         cursor: pointer;
     }
-    .menu__dropdown-list a:hover{
+
+    .menu__dropdown-list a:hover {
         background-color: var(--color-brand);
         color: var(--color-white);
     }
-    .menu__link:hover{
+
+    .menu__link:hover {
         color: var(--color-brand);
     }
-    .menu__dropdown-link:hover svg path{
+
+    .menu__dropdown-link:hover svg path {
         fill: var(--color-brand);
     }
-    .menu__dropdown-item:hover .menu__dropdown-link svg{
+
+    .menu__dropdown-item:hover .menu__dropdown-link svg {
         transform: scale(1, -1);
     }
-    .menu__dropdown-item:hover .menu__dropdown-list{
+
+    .menu__dropdown-item:hover .menu__dropdown-list {
         display: block;
     }
 }

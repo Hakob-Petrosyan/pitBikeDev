@@ -19,7 +19,6 @@
         </nav>
     </section>
 
-
     <section class="page-title__section width-container">
         <h1 class="page-title textUppercase">Туры</h1>
     </section>
@@ -45,7 +44,7 @@
                 </svg>
             </div>
             <h6 class="advantages__title">
-                Экипировка входит в стоимость
+                Экипировка входит в&nbsp;стоимость
             </h6>
         </div>
 
@@ -78,79 +77,30 @@
                 </svg>
             </div>
             <h6 class="advantages__title">
-                Обучение <br>и сопровождение инструктором
+                Обучение и&nbsp;сопровождение инструктором
             </h6>
         </div>
     </section>
 
     <section class="page-section width-container">
+        <h4 class="textCenter">наши туры</h4>
 
-        <div class="slider-section-top flexBox">
-            <h4 class="textCenter textUppercase">Отзывы</h4>
-            <div class="slider-controls flexBox">
-                <button id="toLeft_reviews__slider" class="slider-control-btn btn-skew-reverse bg__brand">
-                    <svg class="reset-skew-reverse" xmlns="http://www.w3.org/2000/svg" width="8" height="13" viewBox="0 0 8 13" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.293258 7.071L5.95026 12.728L7.36426 11.314L2.41426 6.364L7.36426 1.414L5.95026 0L0.293258 5.657C0.105787 5.84453 0.000471592 6.09884 0.000471592 6.364C0.000471592 6.62916 0.105787 6.88347 0.293258 7.071Z" fill="white"/>
-                    </svg>
-                </button>
-                <button id="toRight_reviews__slider"  class="slider-control-btn btn-skew-reverse bg__brand">
-                    <svg class="reset-skew-reverse" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.071 11.071L7.414 16.728L6 15.314L10.95 10.364L6 5.414L7.414 4L13.071 9.657C13.2585 9.84453 13.3638 10.0988 13.3638 10.364C13.3638 10.6292 13.2585 10.8835 13.071 11.071Z" fill="white"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-
-
-        <div class="slider-container"
-             id="reviews__slider"
-             data-slider-group-item="reviews__slider"
-             data-slides-view="3"
-             data-slides-view-tablet="2"
-             data-slides-view-mobile="1.2"
-             data-space-between="12"
-             data-space-between-tablet="8"
-             data-space-between-mobile="6"
-             data-slides-loop="false"
-             data-auto-play="false"
-             data-reverse-direction="false"
-             data-slides-speed="1000"
-             data-grab-cursor="true"
-             data-pagination-clickable="true"
-             data-slides-delay='1000'
-             data-pagination-type="false"
-             data-pagination-type-tablet="false"
-             data-pagination-type-mobile="progressbar"
-        >
-
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    Михайил
-                </div>
-                <div class="swiper-slide">
-                    Михайил
-                </div>
-                <div class="swiper-slide">
-                    Михайил
-                </div>
-                <div class="swiper-slide">
-                    Михайил
-                </div>
-                <div class="swiper-slide">
-                    Михайил
-                </div>
-                <div class="swiper-slide">
-                    Михайил
-                </div>
+        <div class="our-tours">
+            <div data-panes>
+                <button class="our-tours__tub-btn btn-custom  h6" data-pane>дневные</button>
+                <button class="our-tours__tub-btn btn-custom  h6" data-pane>С ночевой</button>
             </div>
 
+            <div >
+
+            </div>
         </div>
 
     </section>
 
+    {{> gallery-slider}}
 
-
-
+    {{> reviews-slider}}
 </main>
 
 
