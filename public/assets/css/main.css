@@ -227,6 +227,9 @@
     gap: 24px;
     align-items: center;
 }
+.to-home__btn{
+    max-width: 259px;
+}
 
 /*END 404 error*/
 
@@ -268,6 +271,85 @@
     border: 1px solid var(--color-mustache);
     padding: 20px;
 }
+.our-tours{
+    margin-top: 32px;
+}
+.our-tours__tub-btn{
+    width: 242px;
+}
+
+.our-tours__contents{
+    margin-top: 56px;
+}
+
+
+
+.routes-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 56px 4px;
+}
+
+.route-card{
+    height: 400px;
+    width: 100%;
+    max-width: 614px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+
+.route-card-tag{
+    background-color: var(--color-tire);
+    border: 1px solid var(--color-white);
+    width: fit-content;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 55px;
+}
+
+.route-card__top{
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    gap: 8px;
+    align-items: end;
+}
+
+.route-card__bottom{
+    /*padding: 0 97px 0 25px;*/
+    width: 100%;
+    padding: 0 16% 0 4%;
+    position: absolute;
+    bottom: 16px;
+}
+
+.route-card{
+    position: relative;
+    padding-bottom: 0;
+}
+.route-card__image{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
 /*END tours*/
 
 
@@ -326,12 +408,9 @@
     height: 40px;
     width: 40px;
 }
-
 /*END reviews slider section */
 
-.our-tours{
-    margin-top: 32px;
-}
+
 
 
 .mb-show {
@@ -339,10 +418,6 @@
 }
 
 @media (hover: hover) {
-    button:hover {
-        cursor: pointer;
-    }
-
     .menu__dropdown-list a:hover {
         background-color: var(--color-brand);
         color: var(--color-white);
@@ -362,5 +437,10 @@
 
     .menu__dropdown-item:hover .menu__dropdown-list {
         display: block;
+    }
+
+    .header-phone:hover,
+    .telegram-promo:hover{
+        background-color: var(--color-add-brand);
     }
 }

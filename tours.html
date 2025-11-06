@@ -8,6 +8,9 @@
 
 {{> header }}
 
+
+
+
 <main>
 
     <section class="width-container">
@@ -85,14 +88,198 @@
     <section class="page-section width-container">
         <h4 class="textCenter">наши туры</h4>
 
-        <div class="our-tours">
-            <div data-panes>
-                <button class="our-tours__tub-btn btn-custom  h6" data-pane>дневные</button>
-                <button class="our-tours__tub-btn btn-custom  h6" data-pane>С ночевой</button>
+        <div class="our-tours" data-tabs-block>
+            <div class="flexCenter" data-panes>
+                <button class="our-tours__tub-btn btn-custom bg__add-brand btn-skew-right" data-pane>
+                    <span class="btn-skew-right-content h6">дневные</span>
+                </button>
+                <button class="our-tours__tub-btn btn-custom bg__white btn-skew-right color__brand" data-pane>
+                    <span class="btn-skew-right-content h6">С ночевой</span>
+                </button>
             </div>
 
-            <div >
+            <div class="our-tours__contents">
+                <div data-container>
+                    <div class="routes-content">
+                        <div class="route-card  flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
 
+                            <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">МАРШРУТ «ТИХИЙ УГОЛОК»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom route-card__bottom-t flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="route-card flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-2.webp')"></div>
+
+                            <div class="route-card__top flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="route-card flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-3.webp')"></div>
+
+                            <div class="route-card__top flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-container>
+                    <div class="routes-content">
+                        <div class="route-card flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-3.webp')"></div>
+
+                            <div class="route-card__top flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="route-card  flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
+
+                            <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">МАРШРУТ «ТИХИЙ УГОЛОК»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom route-card__bottom-t flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="route-card  flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
+
+                            <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">Маршрут «солнечная тропа»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom route-card__bottom-t flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="route-card flexColumn" >
+                            <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-2.webp')"></div>
+
+                            <div class="route-card__top flexColumn btn-skew-right">
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">1 ЧАС</span>
+                                </h6>
+                                <h6 class="route-card-tag">
+                                    <span class="btn-skew-right-content blockBox">6 490 ₽</span>
+                                </h6>
+                            </div>
+
+                            <div class="route-card__bottom flexBox btn-skew-right">
+                                <button class="route-status btn-custom  btn__white ">
+                                    <span class="h6 btn-skew-right-content">0 МАРШРУТЕ</span>
+                                </button>
+                                <button class="route-button btn-custom  bg__brand">
+                                    <span class="h6 btn-skew-right-content">ЗАПИСАТЬСЯ</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

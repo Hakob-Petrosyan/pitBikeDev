@@ -211,12 +211,16 @@
     }
 
     .footer__word-logo {
-        margin-top: calc(100vw / 11);
+        margin-top: calc(100vw / 9);
     }
 
     .footer-contacts,
     .footer-contacts__wrapper {
         align-items: center;
+    }
+
+    .footer-contacts__wrapper .contacts__mail{
+        height: 32px;
     }
 
     .footer-contacts {
@@ -252,6 +256,9 @@
     .error-content__bottom {
         gap: 16px;
     }
+    .to-home__btn{
+        max-width: 205px;
+    }
 
     /*tours*/
     .tours__marquee {
@@ -275,6 +282,30 @@
     }
     .gallery-card{
         height: 210px;
+    }
+
+    .routes-content{
+        gap: 24px;
+    }
+
+
+    .route-card{
+        height: 218px;
+    }
+    .route-card__top{
+        right: 16px;
+    }
+    .route-card-tag:not(:first-child){
+        display: none;
+    }
+    .route-card__bottom{
+        flex-direction: column;
+        padding: 0 16% 0 8%;
+    }
+
+    .route-card-tag{
+        height: 38px;
+        padding: 0 26px;
     }
 
     /*END tours*/
