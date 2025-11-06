@@ -114,13 +114,21 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, .t1, .t3{
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5{
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+}
+
+.t1,
+.t3{
     font-family: "Roboto Condensed";
 
 }
-h1, h2, h3, h4, h5, h6, .t1{
-    text-transform: uppercase;
-}
+
 .t2, .t-caption, h6{
     font-family: 'Oswald';
 }
@@ -159,6 +167,7 @@ h5,
     font-size: 32px;
     line-height: 100%;
     font-weight: 500;
+    font-style: italic;
 }
 
 h6,
@@ -187,6 +196,12 @@ h6,
     line-height: 120%;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media (max-width: 1400px) and (min-width: 992px) {
+    .page-title {
+        font-size: 165px;
+    }
 }
 
 

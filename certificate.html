@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+{{> head }}
+
+
+<body>
+
+{{> header }}
+
+
+<main>
+
+    <section class="width-container">
+        <nav class="breadcrumbs-section" aria-label="Хлебные крошки">
+            <ul class="breadcrumbs resetListStyle flexAlignCenter">
+                <li><a href="/">Главная</a></li>
+                <li><span aria-current="page">Сертификат</span></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="page-title__section width-container">
+        <h1 class="page-title textUppercase">Сертификат</h1>
+    </section>
+
+    <section class="certificate-description-section width-container">
+
+        <picture class="certificate-image">
+            <source
+                    media="(min-width: 993px)"
+                    srcset="assets/images/cards/certificate-image.webp"
+            />
+            <source
+                    media="(max-width: 992px)"
+                    srcset="assets/images/cards/certificate-image-mobile.webp"
+            />
+            <img
+                    src="image/home/home-page-top-image1.png"
+                    alt=" certificate imag"
+            />
+        </picture>
+
+        <div class="certificate-description__content flexColumn">
+                <ul class="certificate-description__top resetListStyle flexBox">
+                    <li class="h5">друзьям</li>
+                    <li class="h5">Коллегам</li>
+                    <li class="h5">Близким</li>
+                </ul>
+                <div class="certificate-description__bottom">
+                    <svg class="mb-hide" width="622" height="41" viewBox="0 0 622 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 0H0L10 41H29L19 0Z" fill="white"/>
+                        <path d="M77 0H41L51 41H87L77 0Z" fill="white"/>
+                        <path d="M142 0H99L109 41H152L142 0Z" fill="white"/>
+                        <path d="M289 0H176L186 41H299L289 0Z" fill="white"/>
+                        <path d="M333 0H446L436 41H323L333 0Z" fill="white"/>
+                        <path d="M480 0H523L513 41H470L480 0Z" fill="white"/>
+                        <path d="M545 0H581L571 41H535L545 0Z" fill="white"/>
+                        <path d="M603 0H622L612 41H593L603 0Z" fill="white"/>
+                    </svg>
+                    <button class="btn-custom btn__white mb-show btn-skew-right">
+                        <span class="btn-skew-right-content h6">купить сертификат</span>
+                    </button>
+                </div>
+        </div>
+    </section>
+
+    {{> marquee}}
+
+    {{> advantages}}
+
+    <section class="about-certificate__section width-container page-section">
+
+        <div class="about-certificate flexColumn">
+            <h4>О сертификате</h4>
+
+            <div class="about-certificate__icon">
+                <svg width="299" height="12" viewBox="0 0 299 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0H123L113 12H0L10 0Z" fill="#FE6B29"/>
+                    <path d="M157 0H200L190 12H147L157 0Z" fill="#FE6B29"/>
+                    <path d="M222 0H258L248 12H212L222 0Z" fill="#FE6B29"/>
+                    <path d="M280 0H299L289 12H270L280 0Z" fill="#FE6B29"/>
+                </svg>
+            </div>
+
+            <p class="t1">
+                Подарочные сертификаты на прокат байков — это отличный способ
+                подарить незабываемые впечатления! Они идеально подойдут для любителей
+                активного отдыха и приключений. Сертификат можно использовать для аренды
+                байка на любой срок, что позволяет выбрать идеальный маршрут и насладиться
+                свободой передвижения. Подарите своим близким возможность исследовать живописные места
+                на двух колёсах!
+            </p>
+
+            <button class="about-certificate__button btn-custom bg__brand btn-skew-left">
+                <span class="btn-skew-left-content h6">Купить сертификат</span>
+            </button>
+
+        </div>
+
+
+            <div class="about-certificate__image flexBox">
+                <div class="about-certificate__lines flexBox">
+                    <span class="about-certificate__line about-certificate__line-18 flexBox"></span>
+                    <span class="about-certificate__line about-certificate__line-38 flexBox"></span>
+                </div>
+                <img src="/assets/images/cards/gallery-2.webp" alt="">
+            </div>
+    </section>
+
+</main>
+
+
+{{> footer }}
+
+{{> scripts }}
+</body>
+
+</html>

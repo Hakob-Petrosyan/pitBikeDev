@@ -258,6 +258,7 @@ img {
     overflow: hidden;
 }
 
+
 [data-container]{
     display: none;
 }
@@ -265,6 +266,13 @@ img {
     display: block;
 }
 
+.page-title {
+    margin-top: 16px;
+    background: radial-gradient(188.39% 74.95% at 33.38% 84.35%, #F77F49 0%, #F44C00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
