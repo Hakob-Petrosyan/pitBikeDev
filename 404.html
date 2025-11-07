@@ -10,12 +10,9 @@
 
 <main class="width-container">
 
-    <nav class="breadcrumbs-section" aria-label="Хлебные крошки">
-        <ul class="breadcrumbs resetListStyle flexAlignCenter">
-            <li><a href="/">Главная</a></li>
-            <li><span aria-current="page">404</span></li>
-        </ul>
-    </nav>
+    {{> breadcrumbs
+    currenPage = "404"
+    }}
 
 
     <div class="error-page-content flexColumn">

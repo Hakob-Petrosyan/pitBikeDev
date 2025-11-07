@@ -26,6 +26,11 @@
 .color__brand{
     color: var(--color-brand);
 }
+.color__add-brand{
+    color: var(--color-add-brand);
+}
+
+
 
 .bg__brand{
     background-color: var(--color-brand);
@@ -81,6 +86,7 @@ button {
     background: none;
     color: var(--color-white);
     transition: color 300ms, background-color 300ms;
+    white-space: nowrap;
 }
 
 .btn-custom {

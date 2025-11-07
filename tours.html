@@ -13,14 +13,9 @@
 
 <main>
 
-    <section class="width-container">
-        <nav class="breadcrumbs-section" aria-label="Хлебные крошки">
-            <ul class="breadcrumbs resetListStyle flexAlignCenter">
-                <li><a href="/">Главная</a></li>
-                <li><span aria-current="page">Туры</span></li>
-            </ul>
-        </nav>
-    </section>
+    {{> breadcrumbs
+    currenPage = "Туры"
+    }}
 
     <section class="tours-page-title page-title__section width-container">
         <h1 class="page-title textUppercase">Туры</h1>
@@ -50,13 +45,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
 
                             <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">МАРШРУТ «ТИХИЙ УГОЛОК»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                      <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -75,13 +70,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-2.webp')"></div>
 
                             <div class="route-card__top flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -100,13 +95,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-3.webp')"></div>
 
                             <div class="route-card__top flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -128,13 +123,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-3.webp')"></div>
 
                             <div class="route-card__top flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -153,13 +148,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
 
                             <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">МАРШРУТ «ТИХИЙ УГОЛОК»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -178,13 +173,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-1.webp')"></div>
 
                             <div class="route-card__top route-card__top-t flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">Маршрут «солнечная тропа»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>
@@ -203,13 +198,13 @@
                             <div class="route-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-2.webp')"></div>
 
                             <div class="route-card__top flexColumn btn-skew-right">
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">Маршрут «речной путь»</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">1 ЧАС</span>
                                 </h6>
-                                <h6 class="route-card-tag">
+                                <h6 class="card-tag">
                                     <span class="btn-skew-right-content blockBox">6 490 ₽</span>
                                 </h6>
                             </div>

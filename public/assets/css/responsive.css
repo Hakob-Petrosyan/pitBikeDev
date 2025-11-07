@@ -1,6 +1,9 @@
 @media (max-width: 1400px) {
-    .certificate-image{
+    .certificate-image {
         max-width: 650px;
+    }
+    .promotions-top-icon-wrapper{
+        min-height: 190px;
     }
 }
 
@@ -14,25 +17,28 @@
         gap: 200px;
     }
 
-    .telegram-promo{
+    .telegram-promo {
         gap: 8px;
     }
 }
 
 @media (max-width: 1220px) {
 
-    .about-certificate__section{
+    .about-certificate__section {
         grid-template-columns: 100%;
         gap: 25px;
     }
-    .about-certificate{
+
+    .about-certificate {
         padding: 0;
         gap: 12px;
     }
-    .about-certificate__button{
+
+    .about-certificate__button {
         max-width: 100%;
     }
-    .about-certificate__image{
+
+    .about-certificate__image {
         width: calc(100% + 16px);
     }
 
@@ -244,7 +250,7 @@
         align-items: center;
     }
 
-    .footer-contacts__wrapper .contacts__mail{
+    .footer-contacts__wrapper .contacts__mail {
         height: 32px;
     }
 
@@ -273,12 +279,13 @@
     .error-content__bottom {
         gap: 16px;
     }
-    .to-home__btn{
+
+    .to-home__btn {
         max-width: 205px;
     }
 
     /*tours*/
-    .tours-page-title{
+    .tours-page-title {
         padding-bottom: 32px;
     }
 
@@ -298,146 +305,185 @@
         padding: 8px;
     }
 
-    .gallery-card{
+    .gallery-card {
         height: 210px;
     }
 
-    .routes-content{
+    .routes-content {
         gap: 24px;
     }
 
-    .route-card{
+    .route-card {
         height: 218px;
     }
 
-    .route-card__top{
+    .route-card__top {
         right: 16px;
     }
 
-    .route-card-tag:not(:first-child){
+    .card-tag:not(:first-child) {
         display: none;
     }
 
-    .route-card__bottom{
+    .route-card__bottom {
         flex-direction: column;
         padding: 0 16% 0 8%;
     }
 
-    .route-card-tag{
+    .card-tag {
         height: 38px;
         padding: 0 26px;
     }
+
     /*END tours*/
+    .telegram-promo {
+        margin-top: 32px;
+        align-items: start;
+        padding: 12px 16px;
+    }
 
-   .telegram-promo{
-       margin-top: 32px;
-       align-items: start;
-       padding: 12px 16px;
-   }
-
-    .reviews-card__crooked-icon{
+    .reviews-card__crooked-icon {
         max-width: 202px;
     }
 
-    .reviews-section__bottom{
+    .reviews-section__bottom {
         gap: 20px;
         margin-top: 20px;
         padding-top: 16px;
     }
 
-    .telegram-promo__title-text{
+    .telegram-promo__title-text {
         display: flex;
         flex-direction: column;
     }
 
     /*certificate page*/
-    .certificate__page-title{
+    .certificate__page-title {
         font-size: 56px;
     }
 
-    .certificate-description-section{
+    .certificate-description-section {
         margin-top: 0;
         min-height: 180px;
     }
 
-    .certificate-description__content{
+    .certificate-description__content {
         padding-bottom: 32px;
         gap: 20px;
     }
 
-    .certificate-description__top li{
+    .certificate-description__top li {
         padding: 8px 0;
     }
 
-    .certificate-image{
+    .certificate-image {
         max-width: 340px;
     }
 
-    .about-certificate__image{
+    .about-certificate__image {
         height: 256px;
     }
 
-    .about-certificate__lines{
+    .about-certificate__lines {
         padding-left: 35px;
         gap: 12px;
         width: 120px;
         clip-path: polygon(42% 0, 100% 100%, 0% 100%, 0% 0%);
     }
 
-    .about-certificate__line-18{
+    .about-certificate__line-18 {
         width: 8px;
     }
-    .about-certificate__line-38{
+
+    .about-certificate__line-38 {
         width: 16px;
     }
+
     .about-certificate__line {
         transform: skew(15deg);
     }
 
-    .faq-section{
+    .faq-section {
         position: relative;
     }
 
-    .faq-block{
+    .faq-block {
         position: relative;
         z-index: 1;
         max-width: 100%;
     }
 
-    .aside-bike-image{
-        height:320px;
+    .aside-bike-image {
+        height: 320px;
         width: 320px;
         position: absolute;
         z-index: 0;
     }
 
-    .aside-bike-image__left{
+    .aside-bike-image__left {
         right: calc(100% - 100px);
     }
-    .aside-bike-image__right{
+
+    .aside-bike-image__right {
         left: calc(100% - 100px);
     }
 
-    .questions-answers{
+    .questions-answers {
         margin-top: 32px;
         gap: 12px;
     }
 
-
-    .faq-section .width-container{
+    .faq-section .width-container {
         min-width: 360px;
         padding-top: 0;
     }
-    .faq-item{
+
+    .faq-item {
         padding: 0 32px;
+    }
+    /*END certificate page*/
+
+    /*promotion page*/
+    .promotions-top-icon{
+        max-width: 360px;
+    }
+    .promotions-top-icon-wrapper{
+        min-height: 165px;
+    }
+
+    .discounts-content{
+        flex-direction: column;
+        gap: 56px;
+        align-items: center;
+    }
+    .discounts-card__image{
+        height: 218px;
+    }
+    .discounts-section{
+        padding: 32px 0;
+    }
+    .discounts-card{
+        gap: 20px;
+    }
+    .discounts-description{
+        gap: 12px;
+        padding: 0 24px;
+    }
+    .discounts-description__icon svg{
+        max-width: 202px;
+    }
+    .discounts-bottom{
+        padding: 0 24px;
     }
 
 
 
+    /*END promotion page*/
 
 
 
-    /*END certificate page*/
+
+
 
 
 
@@ -454,13 +500,11 @@
     .mb-hide {
         display: none;
     }
-
-
 }
 
 
 @media (max-width: 768px) {
-    .certificate-description__content{
+    .certificate-description__content {
         width: 100%;
         max-width: 340px;
     }

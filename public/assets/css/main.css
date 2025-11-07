@@ -136,7 +136,6 @@
 }
 
 .footer-menu-list {
-    text-transform: uppercase;
     font-weight: 500;
     gap: 8px;
 }
@@ -294,7 +293,7 @@
     padding-bottom: 16px;
 }
 
-.route-card-tag{
+.card-tag{
     background-color: var(--color-tire);
     border: 1px solid var(--color-white);
     width: fit-content;
@@ -392,22 +391,28 @@
 
 
 /*certificate page*/
-.certificate-description-section{
+.page-top-icon-wrapper{
     margin-top: 24px;
     position: relative;
-    min-height: 206px;
     display: flex;
     align-items: end;
     justify-content: center;
 }
 
-.certificate-image{
+.certificate-description-section{
+    min-height: 206px;
+}
+
+.page-top-icon{
     position: absolute;
     display: flex;
     bottom: 0;
     width: 100%;
-    max-width: 720px;
     z-index: 1;
+}
+
+.certificate-image{
+    max-width: 720px;
 }
 
 .certificate-description__content{
@@ -519,10 +524,7 @@
 }
 /*END certificate page*/
 
-
 /*faq section*/
-
-
 .faq-section .width-container{
     min-width: 806px;
 }
@@ -546,6 +548,7 @@
     padding: 12px 0;
     transition: padding 300ms;
 }
+
 .open .question{
     padding: 12px 0 8px;
 }
@@ -555,6 +558,7 @@
     overflow: hidden;
     transition: max-height 300ms;
 }
+
 .faq-answer-content{
     padding-bottom: 12px;
 }
@@ -562,9 +566,11 @@
 .question-open-icon{
     transition: transform 300ms;
 }
+
 .open .question-open-icon{
     transform: rotate(180deg);
 }
+
 .vertical-line{
     transition: opacity 300ms;
 }
@@ -576,19 +582,80 @@
 .open.faq-item{
     background-color: var(--color-mustache);
 }
+
 .questions-answers{
     margin-top: 56px;
     gap: 20px;
 }
+
 .question-text{
     width: 100%;
-     text-align: left;
+    text-align: left;
+    white-space: normal;
 }
 /*END faq section*/
 
+/*promotion page*/
+.promotions-top-icon-wrapper{
+    min-height: 80px;
+}
+
+.promotions-top-icon{
+    max-width: 460px;
+}
+
+.discounts-section{
+    margin-top: 32px;
+    padding: 40px 0;
+    background-color: var(--color-mustache);
+}
+
+.discounts-content{
+    gap: 20px;
+    justify-content: center;
+}
+
+.discounts-card{
+    gap: 32px;
+    width: 100%;
+    max-width: 453px;
+}
+
+.discounts-description{
+    gap: 16px;
+    padding: 0 40px;
+}
+
+.discounts-bottom{
+    display: flex;
+    padding: 0 40px;
+    margin-top: auto;
+}
 
 
+.discounts-description__text strong{
+    color: var(--color-white);
+    font-weight: 500;
+}
 
+.discounts-card__image{
+    height: 302px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.discounts-card__top{
+    position: relative;
+}
+
+.card-tag__wrapper{
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+
+/*END promotion page*/
 
 
 

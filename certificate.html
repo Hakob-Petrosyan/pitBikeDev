@@ -10,22 +10,17 @@
 
 
 <main>
-    <section class="width-container">
-        <nav class="breadcrumbs-section" aria-label="Хлебные крошки">
-            <ul class="breadcrumbs resetListStyle flexAlignCenter">
-                <li><a href="/">Главная</a></li>
-                <li><span aria-current="page">Сертификат</span></li>
-            </ul>
-        </nav>
-    </section>
+    {{> breadcrumbs
+    currenPage = "Сертификат"
+    }}
 
     <section class="page-title__section width-container">
         <h1 class="page-title textUppercase">Сертификат</h1>
     </section>
 
-    <section class="certificate-description-section width-container">
+    <section class="page-top-icon-wrapper certificate-description-section width-container">
 
-        <picture class="certificate-image">
+        <picture class="page-top-icon certificate-image">
             <source
                     media="(min-width: 993px)"
                     srcset="assets/images/cards/certificate-image.webp"
@@ -116,6 +111,7 @@
     }}
 
 </main>
+
 
 
 {{> footer }}
