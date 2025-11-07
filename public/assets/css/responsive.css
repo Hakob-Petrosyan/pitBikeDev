@@ -19,6 +19,25 @@
     }
 }
 
+@media (max-width: 1220px) {
+
+    .about-certificate__section{
+        grid-template-columns: 100%;
+        gap: 25px;
+    }
+    .about-certificate{
+        padding: 0;
+        gap: 12px;
+    }
+    .about-certificate__button{
+        max-width: 100%;
+    }
+    .about-certificate__image{
+        width: calc(100% + 16px);
+    }
+
+}
+
 @media (max-width: 992px) {
     .header-container {
         display: none;
@@ -352,6 +371,65 @@
 
     .certificate-image{
         max-width: 340px;
+    }
+
+    .about-certificate__image{
+        height: 256px;
+    }
+
+    .about-certificate__lines{
+        padding-left: 35px;
+        gap: 12px;
+        width: 120px;
+        clip-path: polygon(42% 0, 100% 100%, 0% 100%, 0% 0%);
+    }
+
+    .about-certificate__line-18{
+        width: 8px;
+    }
+    .about-certificate__line-38{
+        width: 16px;
+    }
+    .about-certificate__line {
+        transform: skew(15deg);
+    }
+
+    .faq-section{
+        position: relative;
+    }
+
+    .faq-block{
+        position: relative;
+        z-index: 1;
+        max-width: 100%;
+    }
+
+    .aside-bike-image{
+        height:320px;
+        width: 320px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .aside-bike-image__left{
+        right: calc(100% - 100px);
+    }
+    .aside-bike-image__right{
+        left: calc(100% - 100px);
+    }
+
+    .questions-answers{
+        margin-top: 32px;
+        gap: 12px;
+    }
+
+
+    .faq-section .width-container{
+        min-width: 360px;
+        padding-top: 0;
+    }
+    .faq-item{
+        padding: 0 32px;
     }
 
 

@@ -10,7 +10,6 @@
 
 
 <main>
-
     <section class="width-container">
         <nav class="breadcrumbs-section" aria-label="Хлебные крошки">
             <ul class="breadcrumbs resetListStyle flexAlignCenter">
@@ -42,26 +41,32 @@
         </picture>
 
         <div class="certificate-description__content flexColumn">
-                <ul class="certificate-description__top resetListStyle flexBox">
-                    <li class="h5">друзьям</li>
-                    <li class="h5">Коллегам</li>
-                    <li class="h5">Близким</li>
-                </ul>
-                <div class="certificate-description__bottom">
-                    <svg class="mb-hide" width="622" height="41" viewBox="0 0 622 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 0H0L10 41H29L19 0Z" fill="white"/>
-                        <path d="M77 0H41L51 41H87L77 0Z" fill="white"/>
-                        <path d="M142 0H99L109 41H152L142 0Z" fill="white"/>
-                        <path d="M289 0H176L186 41H299L289 0Z" fill="white"/>
-                        <path d="M333 0H446L436 41H323L333 0Z" fill="white"/>
-                        <path d="M480 0H523L513 41H470L480 0Z" fill="white"/>
-                        <path d="M545 0H581L571 41H535L545 0Z" fill="white"/>
-                        <path d="M603 0H622L612 41H593L603 0Z" fill="white"/>
-                    </svg>
-                    <button class="btn-custom btn__white mb-show btn-skew-right">
-                        <span class="btn-skew-right-content h6">купить сертификат</span>
-                    </button>
-                </div>
+            <ul class="certificate-description__top resetListStyle flexBox">
+                <li class="h5">друзьям</li>
+                <li class="h5">Коллегам</li>
+                <li class="h5">Близким</li>
+            </ul>
+            <div class="certificate-description__bottom flexAlignCenter">
+                <svg class="mb-hide" width="299" height="41" viewBox="0 0 299 41" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0H0L10 41H29L19 0Z" fill="white"/>
+                    <path d="M77 0H41L51 41H87L77 0Z" fill="white"/>
+                    <path d="M142 0H99L109 41H152L142 0Z" fill="white"/>
+                    <path d="M289 0H176L186 41H299L289 0Z" fill="white"/>
+                </svg>
+
+                <button class="get-certificate-btn btn-custom btn__white btn-skew-right">
+                    <span class="btn-skew-right-content h6">купить сертификат</span>
+                </button>
+
+                <svg class="mb-hide" width="299" height="41" viewBox="0 0 299 41" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0H123L113 41H0L10 0Z" fill="white"/>
+                    <path d="M157 0H200L190 41H147L157 0Z" fill="white"/>
+                    <path d="M222 0H258L248 41H212L222 0Z" fill="white"/>
+                    <path d="M280 0H299L289 41H270L280 0Z" fill="white"/>
+                </svg>
+            </div>
         </div>
     </section>
 
@@ -70,7 +75,6 @@
     {{> advantages}}
 
     <section class="about-certificate__section width-container page-section">
-
         <div class="about-certificate flexColumn">
             <h4>О сертификате</h4>
 
@@ -97,16 +101,19 @@
             </button>
 
         </div>
-
-
-            <div class="about-certificate__image flexBox">
-                <div class="about-certificate__lines flexBox">
-                    <span class="about-certificate__line about-certificate__line-18 flexBox"></span>
-                    <span class="about-certificate__line about-certificate__line-38 flexBox"></span>
-                </div>
-                <img src="/assets/images/cards/gallery-2.webp" alt="">
+        <div class="about-certificate__image flexBox">
+            <div class="about-certificate__lines flexBox">
+                <span class="about-certificate__line about-certificate__line-18 flexBox"></span>
+                <span class="about-certificate__line about-certificate__line-38 flexBox"></span>
             </div>
+            <img src="/assets/images/cards/gallery-2.webp" alt="">
+        </div>
     </section>
+
+
+    {{> faq
+        asideImage="/assets/images/main/motociklov-2.webp"
+    }}
 
 </main>
 

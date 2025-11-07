@@ -411,19 +411,36 @@
 }
 
 .certificate-description__content{
+    align-items: center;
     padding-bottom: 79px;
     position: relative;
     z-index: 2;
     gap: 24px;
 }
 .certificate-description__top{
+    width: 100%;
+    max-width: 644px;
     justify-content: space-between;
     gap: 12px;
 }
+
 .certificate-description__top li{
     padding: 10px 0;
 }
 
+.certificate-description__bottom{
+    gap: 24px;
+}
+
+.certificate-description__bottom svg{
+    height: 41px;
+    width: 100%;
+    max-width: 299px;
+}
+
+.get-certificate-btn{
+    max-width: 287px;
+}
 
 .about-certificate__section{
     display: grid;
@@ -449,9 +466,9 @@
     background-color: var(--color-tire);
     gap:30px;
     padding-left: 70px;
-    left: 0;
-    top: 0;
-    height: calc(100% + 1px);
+    left: -1px;
+    top: -1px;
+    height: calc(100% + 2px);
     width: 256px;
     clip-path: polygon(46% 0, 100% 100%, 0% 100%, 0% 0%);
 }
@@ -476,7 +493,109 @@
     max-width: 336px;
 }
 
+
+.faq-section{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    max-width: 1992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside-bike-image{
+    height: 620px;
+    width: 620px;
+    min-width: 620px;
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.aside-bike-image__left{
+    background-position: right;
+}
+.aside-bike-image__right{
+    background-position: left;
+}
 /*END certificate page*/
+
+
+/*faq section*/
+
+
+.faq-section .width-container{
+    min-width: 806px;
+}
+
+.faq-block{
+    padding-top: 65px;
+    max-width: 678px;
+    width: 100%;
+}
+
+.faq-item{
+    border: 1px solid var(--color-white);
+    padding: 0 64px;
+    background-color: var(--color-tire);
+    transition: background-color 300ms;
+}
+
+.question{
+    gap: 12px;
+    width: 100%;
+    padding: 12px 0;
+    transition: padding 300ms;
+}
+.open .question{
+    padding: 12px 0 8px;
+}
+
+.faq-answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 300ms;
+}
+.faq-answer-content{
+    padding-bottom: 12px;
+}
+
+.question-open-icon{
+    transition: transform 300ms;
+}
+.open .question-open-icon{
+    transform: rotate(180deg);
+}
+.vertical-line{
+    transition: opacity 300ms;
+}
+
+.open .vertical-line{
+    opacity: 0;
+}
+
+.open.faq-item{
+    background-color: var(--color-mustache);
+}
+.questions-answers{
+    margin-top: 56px;
+    gap: 20px;
+}
+.question-text{
+    width: 100%;
+     text-align: left;
+}
+/*END faq section*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -509,5 +628,9 @@
     .header-phone:hover,
     .telegram-promo:hover{
         background-color: var(--color-add-brand);
+    }
+
+    .faq-item:hover{
+        background-color: var(--color-mustache);
     }
 }
