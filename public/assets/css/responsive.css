@@ -20,6 +20,12 @@
     .telegram-promo {
         gap: 8px;
     }
+
+    .contacts-page-top{
+        margin-top: 32px;
+        gap: 24px;
+        padding: 0 16px;
+    }
 }
 
 @media (max-width: 1220px) {
@@ -533,22 +539,33 @@
     .recreation-card-tags .card-tag {
         width: 100%;
     }
+    .contacts-page-top{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .contacts-label{
+        gap: 12px;
+        width: 100%;
+    }
+    .contacts-top__soc-wrapper{
+        gap: 16px;
+    }
+    .contacts-soc-wrapper{
+        padding: 0 12px;
+    }
+    .contacts-top__soc-wrapper svg{
+        max-height: 32px;
+    }
+
+
+
+
+
 
 
 
     /*END promotion page*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     .mb-show {

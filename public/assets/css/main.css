@@ -765,12 +765,57 @@
     padding: 0 17% 40px 6%;
 }
 
-
-
-.recreation__gallery-card .card-tag{
-
+.contacts-page-top{
+    margin-top: 57px;
+    gap: 32px;
+    flex-wrap: wrap;
 }
-/*END promotion page*/
+
+.contacts-top__soc-wrapper{
+    gap: 20px;
+}
+.contacts-soc-wrapper{
+    max-width: fit-content;
+}
+.contacts-label{
+    gap: 16px;
+}
+.contacts-label__item{
+    border: 1px solid var(--color-white);
+    padding: 0 60px;
+    white-space: nowrap;
+}
+
+.contacts-label__title{
+    padding: 0 12px;
+}
+
+.map-section{
+    margin-top: 40px;
+    padding: 40px 0;
+}
+
+.map-section-description{
+    max-width: 545px;
+}
+
+.map-description{
+    gap: 48px;
+    max-width: 545px;
+}
+
+.map-description__label{
+    gap: 12px;
+}
+
+.map-block{
+    gap: 56px;
+}
+
+
+
+
+    /*END promotion page*/
 
 
 .mb-show {
