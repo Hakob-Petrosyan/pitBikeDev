@@ -300,6 +300,7 @@
     height: 56px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 55px;
 }
 
@@ -627,8 +628,6 @@
 }
 
 .discounts-bottom{
-    display: flex;
-    padding: 0 40px;
     margin-top: auto;
 }
 
@@ -655,15 +654,123 @@
     right: 30px;
 }
 
+.booking-btn{
+    max-width: 365px;
+}
+
+.corporate-discounts{
+    margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.corporate-discounts__bottom-info{
+    max-width: 373px;
+    min-height: 56px;
+    padding: 8px 32px;
+}
+
+.corporate-discounts-bottom{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.corporate-discounts-description{
+    gap: 16px;
+}
+
+.corporate-discounts-content{
+    padding: 0 40px;
+    gap: 24px;
+}
+.corporate-description__list{
+    margin-top: 20px;
+    gap: 12px;
+}
+.corporate-description__list li{
+    padding-left: 24px;
+    position: relative;
+}
+.corporate-description__list li:before{
+    content: url("/assets/images/icons/list-icon-line.svg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: end;
+    height: 16px;
+    width: 20px;
+    justify-content: center;
+}
+
+.corporate-description__list strong{
+    color: var(--color-dust);
+}
+.discounts-description__title{
+    min-height: 58px;
+}
+
+.transport-slid-card{
+    position: relative;
+}
+
+.transport-slider{
+    overflow: hidden;
+}
+
+.transport-slider .swiper-slide{
+    max-width: 689px;
+}
+
+.transport__image{
+    background-image: url("/assets/images/transport-images/bg-clip-path.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 689px;
+    height: 512px;
+    aspect-ratio: 689/512;
+    transition: background 300ms;
+}
+
+.transport-type-button{
+    position: absolute;
+    bottom: 40px;
+    left: 64px;
+    border:1px solid var(--color-white);
+    padding: 0 60px;
+    height: 56px;
+}
+
+.get-cost-block{
+    margin-top: 56px;
+}
+.get-cost-btn{
+    max-width: 325px;
+}
+
+.recreation__gallery-card{
+    position: relative;
+}
+
+.recreation-card-tags{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 17% 40px 6%;
+}
+
+
+
+.recreation__gallery-card .card-tag{
+
+}
 /*END promotion page*/
-
-
-
-
-
-
-
-
 
 
 .mb-show {
@@ -699,5 +806,10 @@
 
     .faq-item:hover{
         background-color: var(--color-mustache);
+    }
+
+
+    .transport-slid-card:hover .transport__image{
+        background-image: url("/assets/images/transport-images/bg-clip-path-hover.svg");
     }
 }

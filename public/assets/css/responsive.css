@@ -41,6 +41,10 @@
     .about-certificate__image {
         width: calc(100% + 16px);
     }
+    .corporate-discounts{
+        margin-top: 32px;
+        gap: 56px;
+    }
 
 }
 
@@ -321,7 +325,7 @@
         right: 16px;
     }
 
-    .card-tag:not(:first-child) {
+    .route-card__top .card-tag:not(:first-child) {
         display: none;
     }
 
@@ -459,6 +463,7 @@
     .discounts-card__image{
         height: 218px;
     }
+
     .discounts-section{
         padding: 32px 0;
     }
@@ -473,7 +478,60 @@
         max-width: 202px;
     }
     .discounts-bottom{
+        padding: 0;
+    }
+    .card-tag__wrapper{
+        right: 20px;
+    }
+
+    .discounts-description__title{
+        min-height: unset;
+    }
+    .transport-slider{
+        margin-top: 6px;
+    }
+    .corporate-discounts-description{
+        gap: 12px;
+    }
+    .corporate-description__list{
+        margin-top: 16px;
+        gap: 8px;
+    }
+    .corporate-discounts-content{
         padding: 0 24px;
+    }
+    .corporate-discounts-bottom{
+        gap: 16px;
+    }
+
+
+    .transport-slider .swiper-slide{
+        width: 328px;
+    }
+    .transport__image{
+        background-image: url("/assets/images/transport-images/bg-clip-path-hover.svg");
+        width: 328px;
+        height: 244px;
+        aspect-ratio: 82/61;
+    }
+    .transport-type-button{
+        bottom: 12px;
+        left: 24px;
+        right: 24px;
+        height: 38px;
+    }
+    .get-cost-block{
+        margin-top: 32px;
+    }
+    .get-cost-btn{
+        max-width: 100%;
+    }
+    .recreation-card-tags{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .recreation-card-tags .card-tag {
+        width: 100%;
     }
 
 

@@ -41,6 +41,17 @@
 .bg__white{
     background-color: var(--color-white);
 }
+.bg__smoke{
+    background-color: var(--color-smoke);
+}
+.bg__tire{
+    background-color: var(--color-tire);
+}
+
+.bg__color-mustache{
+    background-color: var(--color-mustache);
+}
+
 
 .btn__white {
     background-color: var(--color-white);
@@ -328,7 +339,7 @@ img {
         gap: 4px;
     }
     .slider-container{
-        margin-top: 48px;
+        margin-top: 32px;
     }
     .slider-section-top{
         flex-direction: column;

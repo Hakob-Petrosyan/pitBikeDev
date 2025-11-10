@@ -100,21 +100,11 @@ function initSliders() {
             slidesSpeed,
             paginationClickable,
             slidesDelay,
-            slidesGroup,
-            slidesGroupTablet,
-            slidesGroupMobile,
             paginationType,
             paginationTypeTablet,
             paginationTypeMobile,
 
         } = sliderItem.dataset;
-
-
-
-
-        const mobileGroup = parseInt(slidesGroupMobile) || 1;
-        const tabletGroup = parseInt(slidesGroupTablet) || 1;
-        const desktopGroup = parseInt(slidesGroup) || 1;
 
         const isGrabCursor = grabCursor === 'true';
         const isAutoPlay = autoPlay === 'true';
@@ -146,18 +136,15 @@ function initSliders() {
             breakpoints: {
                 300: {
                     spaceBetween: parseFloat(spaceBetweenMobile) || 0,
-                    slidesPerView: parseFloat(slidesViewMobile) || 1,
-                    slidesPerGroup: mobileGroup,
+                    slidesPerView: slidesViewMobile === "auto"? 'auto': parseFloat(slidesViewMobile),
                 },
                 576: {
                     spaceBetween: parseFloat(spaceBetweenTablet) || 0,
-                    slidesPerView: parseFloat(slidesViewTablet) || 1,
-                    slidesPerGroup: tabletGroup,
+                    slidesPerView: slidesViewTablet === "auto"? 'auto': parseFloat(slidesViewTablet),
                 },
                 1220: {
                     spaceBetween: parseFloat(spaceBetween) || 0,
-                    slidesPerView: parseFloat(slidesView) || 1,
-                    slidesPerGroup: desktopGroup,
+                    slidesPerView: slidesView === "auto"? 'auto': parseFloat(slidesView),
                 },
             },
             pagination: {
