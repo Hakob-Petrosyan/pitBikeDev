@@ -11,10 +11,11 @@
 
 <main>
 
-    {{> breadcrumbs
-    currenPage = "Контакты"
-    }}
-
+    <section class="width-container">
+        {{> breadcrumbs
+        currenPage = "Контакты"
+        }}
+    </section>
     <section class="page-title__section width-container">
         <h1 class="page-title textUppercase">контакты</h1>
     </section>
@@ -78,16 +79,16 @@
     </section>
 
     <section class="map-section bg__color-mustache">
-        <div class="width-container">
-            <div class="map-block flexAlignCenter">
-                <div class="map-wrapper">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae819360452c302dfb601b48eeab668907b01258d32c9a69e056ac5c2cb7d5f45&amp;source=constructor" width="680" height="312" frameborder="0"></iframe>
+        <div class="width-container flexCenter">
+            <div class="map-block flexCenter w-100">
+                <div class="map-wrapper w-100">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae819360452c302dfb601b48eeab668907b01258d32c9a69e056ac5c2cb7d5f45&amp;source=constructor" frameborder="0"></iframe>
                 </div>
 
-                <div class="map-description flexColumn">
+                <div class="map-description flexColumn w-100">
                     <div class="map-description__label flexColumn">
                         <span class="t2 color__dust">Адрес</span>
-                        <a href="" class="h6">
+                        <a href="https://yandex.ru/maps/?um=constructor%3Ae819360452c302dfb601b48eeab668907b01258d32c9a69e056ac5c2cb7d5f45&source=constructor" class="h6" target="_blank">
                             Резиденция Активного Отдыха | Питбайкпарк
                             Московская область, городской округ Серпухов,
                             территория Глубоково-3, 1
@@ -96,14 +97,19 @@
 
                     <div class="map-description__label flexColumn">
                         <span class="t2 color__dust">Время работы</span>
-                        <a href="" class="h6">
+                        <span class="h6">
                             Ежедневно с 9:00 до 21:00
-                        </a>
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    {{> find-out-cost
+        section-type='page-section'
+        title = 'узнать стоимость'
+    }}
 
     {{> reviews-slider}}
 

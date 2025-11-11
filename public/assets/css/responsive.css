@@ -2,7 +2,8 @@
     .certificate-image {
         max-width: 650px;
     }
-    .promotions-top-icon-wrapper{
+
+    .promotions-top-icon-wrapper {
         min-height: 190px;
     }
 }
@@ -21,7 +22,7 @@
         gap: 8px;
     }
 
-    .contacts-page-top{
+    .contacts-page-top {
         margin-top: 32px;
         gap: 24px;
         padding: 0 16px;
@@ -47,11 +48,15 @@
     .about-certificate__image {
         width: calc(100% + 16px);
     }
-    .corporate-discounts{
+
+    .corporate-discounts {
         margin-top: 32px;
         gap: 56px;
     }
 
+    .find-out-cost{
+        gap: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -454,119 +459,241 @@
     /*END certificate page*/
 
     /*promotion page*/
-    .promotions-top-icon{
+    .promotions-top-icon {
         max-width: 360px;
     }
-    .promotions-top-icon-wrapper{
+
+    .promotions-top-icon-wrapper {
         min-height: 165px;
     }
 
-    .discounts-content{
+    .discounts-content {
         flex-direction: column;
         gap: 56px;
         align-items: center;
     }
-    .discounts-card__image{
+
+    .discounts-card__image {
         height: 218px;
     }
 
-    .discounts-section{
+    .discounts-section {
         padding: 32px 0;
     }
-    .discounts-card{
+
+    .discounts-card {
         gap: 20px;
     }
-    .discounts-description{
+
+    .discounts-description {
         gap: 12px;
         padding: 0 24px;
     }
-    .discounts-description__icon svg{
+
+    .discounts-description__icon svg {
         max-width: 202px;
     }
-    .discounts-bottom{
+
+    .discounts-bottom {
         padding: 0;
     }
-    .card-tag__wrapper{
+
+    .card-tag__wrapper {
         right: 20px;
     }
 
-    .discounts-description__title{
+    .discounts-description__title {
         min-height: unset;
     }
-    .transport-slider{
+
+    .transport-slider {
         margin-top: 6px;
     }
-    .corporate-discounts-description{
+
+    .corporate-discounts-description {
         gap: 12px;
     }
-    .corporate-description__list{
+
+    .corporate-description__list {
         margin-top: 16px;
         gap: 8px;
     }
-    .corporate-discounts-content{
+
+    .corporate-discounts-content {
         padding: 0 24px;
     }
-    .corporate-discounts-bottom{
+
+    .corporate-discounts-bottom {
         gap: 16px;
     }
 
-
-    .transport-slider .swiper-slide{
+    .transport-slider .swiper-slide {
         width: 328px;
     }
-    .transport__image{
+
+    .transport__image {
         background-image: url("/assets/images/transport-images/bg-clip-path-hover.svg");
         width: 328px;
         height: 244px;
         aspect-ratio: 82/61;
     }
-    .transport-type-button{
+
+    .transport-type-button {
         bottom: 12px;
         left: 24px;
         right: 24px;
         height: 38px;
     }
-    .get-cost-block{
+
+    .get-cost-block {
         margin-top: 32px;
     }
-    .get-cost-btn{
+
+    .get-cost-btn {
         max-width: 100%;
     }
-    .recreation-card-tags{
+
+    .recreation-card-tags {
         width: 100%;
         padding-bottom: 12px;
     }
+
     .recreation-card-tags .card-tag {
         width: 100%;
     }
-    .contacts-page-top{
+
+    .contacts-page-top {
         flex-direction: column;
         align-items: start;
     }
 
-    .contacts-label{
+    .contacts-label {
         gap: 12px;
         width: 100%;
     }
-    .contacts-top__soc-wrapper{
+
+    .contacts-top__soc-wrapper {
         gap: 16px;
     }
-    .contacts-soc-wrapper{
+
+    .contacts-soc-wrapper {
         padding: 0 12px;
     }
-    .contacts-top__soc-wrapper svg{
+
+    .contacts-top__soc-wrapper svg {
         max-height: 32px;
     }
 
+    .map-block {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .map-section {
+        padding: 32px 16px;
+    }
+
+    .map-description__label {
+        gap: 8px;
+    }
+
+    .map-description {
+        gap: 20px;
+    }
+
+    .map-wrapper,
+    .map-description {
+        max-width: 100%;
+    }
+
+    .map-description{
+        gap: 20px;
+    }
+
+    .find-out-cost{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bike-bend-bg{
+        height: 255px;
+        width: 100%;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: -16px;
+    }
+
+    .bike-bend-image{
+        width: 300px;
+        right: 10px;
+    }
 
 
 
+    .bike-bend-bg:before{
+        width: 75px;
+        clip-path: polygon(30% 0, 100% 100%, 0% 100%, 0% 0%);
+    }
 
+    .cost-form__inputs{
+        grid-template-columns: 100%;
+        gap: 12px;
+    }
 
+    .cost-form__field-comment{
+        grid-column: unset;
+    }
+    .cost-form__field{
+        padding: 4px 12px 8px;
+        gap: 2px;
+    }
 
+    .cost-form__icon svg{
+        max-width: 202px;
+    }
 
+    .cost-form__top{
+        gap: 14px;
+    }
+
+    .cost-form{
+        gap: 20px;
+    }
     /*END promotion page*/
 
+    /*corporate*/
+    .page-top{
+        height: 469px;
+        margin-top: -40px;
+        padding-top: 40px;
+    }
+
+    .page-top__content{
+        margin-top: 29px;
+    }
+
+    .page-top__action{
+        margin-top: 32px;
+    }
+
+    .corporate-benefits-slider .swiper-slide{
+        width: 228px;
+    }
+
+    .corporate-benefits-card{
+        padding: 16px 16px 24px;
+        gap: 8px;
+    }
+
+    .corporate-benefits,
+    .page-section__corporate{
+        margin-top: 40px;
+    }
+
+
+
+
+    /*END corporate*/
 
     .mb-show {
         display: flex;
@@ -576,7 +703,6 @@
         display: none;
     }
 }
-
 
 @media (max-width: 768px) {
     .certificate-description__content {

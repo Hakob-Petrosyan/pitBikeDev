@@ -8,26 +8,30 @@
 
 {{> header }}
 
-<main class="width-container">
+<main>
 
-    {{> breadcrumbs
-    currenPage = "404"
-    }}
+    <section class="width-container">
+        {{> breadcrumbs
+        currenPage = "404"
+        }}
+    </section>
 
+    <section class="width-container">
+        <div class="error-page-content flexColumn">
+            <div class="error-content-image">
+                <img src="/assets/images/main/404-image.webp" alt="">
+            </div>
 
-    <div class="error-page-content flexColumn">
-        <div class="error-content-image">
-            <img src="/assets/images/main/404-image.webp" alt="">
+            <div class="error-content__bottom flexColumn">
+                <h3 class=" textUppercase pageTitle">Страница не&nbsp;найдена</h3>
+
+                <a href="/" class="to-home__btn btn-custom btn-skew-right btn__white">
+                    <span class="h6 btn-skew-right-content">На&nbsp;главную</span>
+                </a>
+            </div>
         </div>
+    </section>
 
-        <div class="error-content__bottom flexColumn">
-            <h3 class=" textUppercase pageTitle">Страница не&nbsp;найдена</h3>
-
-            <a href="/" class="to-home__btn btn-custom btn-skew-right btn__white">
-                <span class="h6 btn-skew-right-content">На&nbsp;главную</span>
-            </a>
-        </div>
-    </div>
 
 </main>
 

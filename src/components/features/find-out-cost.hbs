@@ -1,0 +1,55 @@
+<section class="width-container {{section-type}}">
+    <div class="find-out-cost flexAlignCenter">
+        <form class="cost-form flexColumn">
+            <div class="cost-form__top flexColumn">
+                <h4>{{title}}</h4>
+
+
+                <span class="cost-form__icon flexBox">
+                        <svg width="299" height="12" viewBox="0 0 299 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0H123L113 12H0L10 0Z" fill="#FE6B29"/>
+                            <path d="M157 0H200L190 12H147L157 0Z" fill="#FE6B29"/>
+                            <path d="M222 0H258L248 12H212L222 0Z" fill="#FE6B29"/>
+                            <path d="M280 0H299L289 12H270L280 0Z" fill="#FE6B29"/>
+                        </svg>
+                    </span>
+
+                <p class="t1">
+                    Поможем в выборе тура и формата мероприятия, уточним по стоимости и датам, пришлём презентацию
+                </p>
+            </div>
+
+            <div class="cost-form__inputs">
+                <div class="cost-form__field flexColumn bg__color-mustache">
+                    <label class="color__smoke t-caption" for="name">имя*</label>
+                    <input class="bg__color-mustache t2" type="text" id="name" name="name" placeholder="Ваше имя" required>
+                </div>
+
+                <div class="cost-form__field flexColumn bg__color-mustache">
+                    <label class="color__smoke t-caption" for="phone">телефон*</label>
+                    <input class="bg__color-mustache t2" type="text" id="phone" name="name" placeholder="+7 (___) ___-__-__" required data-phone-mask>
+                </div>
+
+                <div class="cost-form__field cost-form__field-comment flexColumn bg__color-mustache">
+                    <label class="color__smoke t-caption" for="comment">КОММЕНТАРИЙ</label>
+                    <textarea class="cost-form__textarea bg__color-mustache t2" id="comment" name="comment" placeholder="ВАШ КОММЕНТАРИЙ"></textarea>
+                </div>
+
+            </div>
+
+            <div class="cost-form__bottom flexColumn">
+                <button type="submit" class="cost-form__button btn-custom bg__brand btn-skew-left">
+                    <span class="h6 btn-skew-left-content">СВЯЖИТЕСЬ СО МНОЙ</span>
+                </button>
+
+                <p class="t-caption color__smoke">
+                    НАЖИМАЯ КНОПКУ, ВЫ СОГЛАШАЕТЕСЬ
+                    <a href="#" class="form__privacy-link color__dust">С ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ И ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ</a>
+                </p>
+            </div>
+        </form>
+        <div class="bike-bend-bg bg__light-brand">
+            <img class="bike-bend-image" src="assets/images/main/motociklov-3.webp" alt="motociklov-2">
+        </div>
+    </div>
+</section>

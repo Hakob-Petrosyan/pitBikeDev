@@ -179,3 +179,16 @@ function initSliders() {
     });
 }
 initSliders()
+
+document.addEventListener('focus', function (e) {
+    if (e.target.matches('input[data-phone-mask]') && typeof Inputmask !== 'undefined') {
+        if (!e.target.inputmask) {
+            Inputmask({
+                mask: "+7 (999) 999-99-99",
+                placeholder: "_",
+                showMaskOnHover: false,
+                clearIncomplete: true
+            }).mask(e.target);
+        }
+    }
+}, true);

@@ -108,7 +108,6 @@
 }
 /*END font Roboto Condensed*/
 
-
 h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     margin: 0;
@@ -132,7 +131,6 @@ h5, .h5{
 .t2, .t-caption, h6{
     font-family: 'Oswald';
 }
-
 
 h1,
 .h1 {
@@ -201,12 +199,23 @@ h6,
     text-transform: uppercase;
 }
 
+.form__privacy-link{
+    text-decoration: underline;
+}
+
+.cost-form__bottom{
+    max-width: 344px;
+    gap: 16px;
+}
+
+
+
+
 @media (max-width: 1400px) and (min-width: 992px) {
     .page-title {
         font-size: 165px;
     }
 }
-
 
 @media (max-width: 992px) {
     h1,

@@ -10,126 +10,139 @@
 
 
 <main>
-    <section class="width-container">
+
+    <section  class="page-top width-container" style="background-image: url('/assets/images/page-top/page-top-1.webp')">
         {{> breadcrumbs
-        currenPage = "акции"
+        currenPage = "Корпоративы"
         }}
-    </section>
 
-    <section class="page-title__section width-container">
-        <h1 class="page-title textUppercase">Акции</h1>
-    </section>
+        <div class="page-top__content flexColumn">
+            <h1 class="h2">
+                <span class="color__add-brand">Корпоративный отдых</span> <br> на внедорожной технике <br> в Москве и Подмосковье
+            </h1>
 
-    <section class="page-top-icon-wrapper promotions-top-icon-wrapper width-container">
-        <img class="page-top-icon promotions-top-icon" src="/assets/images/cards/promotions-top-image.webp" alt=" certificate imag"/>
+            <div class="page-top__action">
+                <button class="page-top__btn btn-custom bg__brand btn-skew-left">
+                    <span class="btn-skew-left-content h6">Забронировать</span>
+                </button>
+            </div>
+
+        </div>
+
     </section>
 
     {{> marquee}}
 
-    {{> advantages}}
-
-    <section class="page-section">
-        <div class="width-container">
-            <h4 class="textCenter">Дарим бонусы и скидки, чтобы&nbsp;вы отдыхали чаще и ярче!</h4>
+    <section class="corporate-benefits width-container">
+        <div class="slider-section-top flexBox">
+            <h4 class="textCenter">Почему выгодно <br> заказать корпоратив у нас</h4>
+            <div class="slider-controls flexBox">
+                <button id="toLeft_corporate_benefits__slider" class="slider-control-btn btn-skew-left bg__brand">
+                    <svg class="btn-skew-left-content" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.29228 11.071L11.9493 16.728L13.3633 15.314L8.41328 10.364L13.3633 5.414L11.9493 4L6.29228 9.657C6.10481 9.84453 5.9995 10.0988 5.9995 10.364C5.9995 10.6292 6.10481 10.8835 6.29228 11.071Z" fill="white"/>
+                    </svg>
+                </button>
+                <button id="toRight_corporate_benefits__slider"  class="slider-control-btn btn-skew-left bg__brand">
+                    <svg class="btn-skew-left-content" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.071 11.071L7.414 16.728L6 15.314L10.95 10.364L6 5.414L7.414 4L13.071 9.657C13.2585 9.84453 13.3638 10.0988 13.3638 10.364C13.3638 10.6292 13.2585 10.8835 13.071 11.071Z" fill="white"/>
+                    </svg>
+                </button>
+            </div>
         </div>
-        <div class="discounts-section">
-            <div class="width-container">
-                <div class="discounts-content flexBox">
-                    <div class="discounts-card flexColumn">
-                        <div class="discounts-card__top">
-                            <div class="discounts-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-4.webp')"></div>
 
-                            <div class="card-tag__wrapper btn-skew-right">
-                                <h6 class="card-tag">
-                                    <span class="btn-skew-right-content blockBox">Скидка — 10%</span>
-                                </h6>
-                            </div>
-                        </div>
+        <div class="corporate-benefits-slider slider-container mobile-wide-container"
+             id="corporate_benefits__slider"
+             data-slider-group-item="corporate_benefits__slider"
+             data-slides-view="auto"
+             data-slides-view-tablet="auto"
+             data-slides-view-mobile="auto"
+             data-space-between="12"
+             data-space-between-tablet="10"
+             data-space-between-mobile="9"
+             data-slides-loop="false"
+             data-auto-play="false"
+             data-reverse-direction="false"
+             data-slides-speed="1000"
+             data-grab-cursor="true"
+             data-pagination-clickable="true"
+             data-slides-delay='1000'
+             data-pagination-type="false"
+             data-pagination-type-tablet="false"
+             data-pagination-type-mobile="progressbar"
+        >
 
-                        <div class="discounts-description flexColumn">
-                            <h6 class="discounts-description__title">Скидка на день рождения – 10% на&nbsp;прокат техники</h6>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="corporate-benefits-card flexColumn bg__color-mustache">
+                        <h6 class="color__brand">Нас выбирают лучшие компании россии</h6>
 
-                            <div class="discounts-description__icon">
-                                <svg width="299" height="12" viewBox="0 0 299 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 0H123L113 12H0L10 0Z" fill="#FE6B29"/>
-                                    <path d="M157 0H200L190 12H147L157 0Z" fill="#FE6B29"/>
-                                    <path d="M222 0H258L248 12H212L222 0Z" fill="#FE6B29"/>
-                                    <path d="M280 0H299L289 12H270L280 0Z" fill="#FE6B29"/>
-                                </svg>
-                            </div>
-
-                            <div class="t2 color__add-brand">Празднуйте день рождения с драйвом! </div>
-
-                            <div class="discounts-description__text t2 color__dust">
-                                <p>
-                                    Дарим <strong>скидку 10%</strong> на аренду квадроциклов,
-                                    багги, эндуро или питбайков в день рождения
-                                    и в течение <strong>трёх дней после него</strong>. Достаточно
-                                    предъявить паспорт или любой документ, подтверждающий
-                                    дату рождения. Отличный повод собрать друзей и отправиться
-                                    в настоящее внедорожное приключение!
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div class="discounts-bottom flexCenter">
-                            <button class="booking-btn btn-custom bg__brand btn-skew-right">
-                                <span class="btn-skew-right-content h6">Забронировать</span>
-                            </button>
-                        </div>
+                        <p class="t3">
+                            Нашими клиентами уже стали крупные бренды:
+                            Вконтакте, Motul, Яндекс, Т-Банк, Эльба Мебель и другие
+                        </p>
                     </div>
-                    <div class="discounts-card flexColumn">
-                        <div class="discounts-card__top">
-                            <div class="discounts-card__image clip-container" style="background-image: url('/assets/images/cards/gallery-5.webp')"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="corporate-benefits-card flexColumn bg__color-mustache">
+                        <h6 class="color__brand">
+                            Инфраструктура «всё в одном»
+                        </h6>
 
-                            <div class="card-tag__wrapper btn-skew-right">
-                                <h6 class="card-tag">
-                                    <span class="btn-skew-right-content blockBox">поездка в подарок</span>
-                                </h6>
-                            </div>
-                        </div>
+                        <p class="t3">
+                            Проживание в отеле, ресторан, баня
+                            и СПА — всё на территории. Никакой
+                            лишней логистики и стресса.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="corporate-benefits-card flexColumn bg__color-mustache">
+                        <h6 class="color__brand">Нас выбирают лучшие компании россии</h6>
 
-                        <div class="discounts-description flexColumn">
-                            <h6 class="discounts-description__title">Бонусная программа — 10 поездок = 11-я в подарок</h6>
+                        <p class="t3">
+                            Нашими клиентами уже стали крупные бренды: Вконтакте,
+                            Motul, Яндекс, Т-Банк, Эльба Мебель и другие
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="corporate-benefits-card flexColumn bg__color-mustache">
+                        <h6 class="color__brand">Инфраструктура «всё в одном»</h6>
 
-                            <div class="discounts-description__icon">
-                                <svg width="299" height="12" viewBox="0 0 299 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 0H123L113 12H0L10 0Z" fill="#FE6B29"/>
-                                    <path d="M157 0H200L190 12H147L157 0Z" fill="#FE6B29"/>
-                                    <path d="M222 0H258L248 12H212L222 0Z" fill="#FE6B29"/>
-                                    <path d="M280 0H299L289 12H270L280 0Z" fill="#FE6B29"/>
-                                </svg>
-                            </div>
+                        <p class="t3">
+                            Проживание в отеле, ресторан, баня
+                            и СПА — всё на территории.
+                            Никакой лишней логистики и стресса.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="corporate-benefits-card flexColumn bg__color-mustache">
+                        <h6 class="color__brand">Нас выбирают лучшие компании россии</h6>
 
-                            <div class="t2 color__add-brand">Становитесь нашим постоянным клиентом и получайте подарки! </div>
-
-                            <div class="discounts-description__text t2 color__dust">
-                                <p>
-                                    Каждая поездка на технике засчитывается,
-                                    а <strong>на 11-й раз — прокат в подарок</strong>. Это может
-                                    быть как личный выезд, так и по абонементу.
-                                    Подходит и для семей, и для компаний, которые
-                                    любят возвращаться за яркими эмоциями.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div class="discounts-bottom flexCenter">
-                            <button class="booking-btn btn-custom bg__brand btn-skew-right">
-                                <span class="btn-skew-right-content h6">Забронировать</span>
-                            </button>
-                        </div>
-
+                        <p class="t3">
+                            Нашими клиентами уже стали крупные бренды:
+                            Вконтакте, Motul, Яндекс, Т-Банк, Эльба
+                            Мебель и другие
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    {{> find-out-cost
+        section-type='page-section__corporate'
+        title = 'заказать индивидуальный корпоратив'
+    }}
+
+    {{> routes-slider
+        title = "Примеры сценариев <br> наши программы"
+    }}
+
+
     <section class="page-section width-container">
-        <h4 class="textCenter">Скидка на корпоративы</h4>
+        <h4 class="textCenter">Корпоративные бонусы и скидки</h4>
         <div class="corporate-discounts">
             <div class="discounts-card flexColumn">
                 <div class="discounts-card__top">
@@ -304,11 +317,12 @@
         </div>
     </section>
 
+    {{> gallery-slider}}
+
     {{> transport-slider
-        sectionTitle = 'транспорт для любого уровня'
+    sectionTitle = 'транспорт для любого уровня'
     }}
 
-    {{> recreation-slider}}
 </main>
 
 
