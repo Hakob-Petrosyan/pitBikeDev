@@ -357,7 +357,7 @@ img {
     .slider-section-top{
         flex-direction: column;
         align-items: center;
-        gap: 16px;
+        gap: 10px;
     }
     .slider-control-btn{
         width: 40px;

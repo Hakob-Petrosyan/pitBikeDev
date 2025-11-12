@@ -963,6 +963,65 @@
     padding: 0 20px;
 }
 
+.additional-services__section-top{
+    align-items: start;
+}
+
+.additional-services__subTitle{
+    text-align: center;
+}
+
+.additional-services__top{
+    gap: 16px;
+}
+
+.additional-card{
+    clip-path: polygon(14% 0, 100% 0, 86% 100%, 0% 100%);
+    height: 100%;
+}
+
+.additional-card__image{
+    min-height: 400px;
+    height: calc(100% - 1px);
+    width: 250px;
+    min-width: 250px;
+    background-repeat: unset;
+    background-position: left;
+    background-size: cover;
+}
+
+.additional-card__top{
+    gap: 16px;
+    max-width: 350px;
+}
+.additional-card__content{
+    width: 100%;
+    padding: 56px 96px 56px 120px;
+    gap: 32px;
+    justify-content: space-between;
+    clip-path: polygon(17% 0, 100% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
+}
+
+.additional-card__btn{
+    max-width: 247px;
+}
+
+.beneficial-business-block{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.beneficial-business__item{
+    gap: 16px;
+    border: 1px solid var(--color-mustache);
+    padding: 20px 20px 32px;
+}
+
+
+
 
 /*END corporate*/
 

@@ -138,7 +138,7 @@ function initSliders() {
                     spaceBetween: parseFloat(spaceBetweenMobile) || 0,
                     slidesPerView: slidesViewMobile === "auto"? 'auto': parseFloat(slidesViewMobile),
                 },
-                576: {
+                992: {
                     spaceBetween: parseFloat(spaceBetweenTablet) || 0,
                     slidesPerView: slidesViewTablet === "auto"? 'auto': parseFloat(slidesViewTablet),
                 },
