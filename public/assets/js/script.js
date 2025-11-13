@@ -68,6 +68,32 @@ function initTabs() {
         });
     });
 }
+function initVideo() {
+    const video = document.querySelector("[data-play-video]");
+    const playBtn = document.querySelector("[data-play-icon]");
+    if (!video || !playBtn) return;
+
+    const showBtn = () => playBtn.classList.remove("hidden");
+    const hideBtn = () => playBtn.classList.add("hidden");
+
+    playBtn.addEventListener("click", () => {
+        video.play();
+        video.controls = true;
+        hideBtn();
+    });
+
+    video.addEventListener("play", hideBtn);
+    video.addEventListener("pause", () => {
+        if (!video.ended) {
+            showBtn();
+        }
+    });
+    video.addEventListener("ended", () => {
+        showBtn();
+        video.controls = false;
+        video.currentTime = 0;
+    });
+}
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -76,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     closeMobileMenu()
     initMarquees()
     initTabs()
+    initVideo()
 })
 
 

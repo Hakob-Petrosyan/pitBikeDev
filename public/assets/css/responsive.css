@@ -731,6 +731,30 @@
         padding: 12px 12px 20px;
     }
 
+    .business-tasks{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .video-player{
+         height: 150px;
+        object-fit: cover;
+    }
+
+    .business-tasks__video .play-icon{
+        height: 32px;
+        width: 32px;
+    }
+
+    .business-tasks__content{
+        gap: 12px;
+        max-width: 100%;
+    }
+
+    .page-section{
+        padding: 32px 0;
+    }
+
 
 
 

@@ -1020,6 +1020,50 @@
     padding: 20px 20px 32px;
 }
 
+.business-tasks__description-bottom{
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--color-smoke);
+}
+
+.business-tasks__content{
+    gap: 24px;
+    max-width: 545px;
+    width: 100%;
+}
+
+.page-section{
+    padding: 40px 0;
+}
+
+.business-tasks{
+    gap: 56px;
+}
+
+.business-tasks__video{
+    position: relative;
+    width: 100%;
+}
+.business-tasks__video .play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 56px;
+    width: 56px;
+    border-radius: 100px;
+}
+
+.video-player{
+    width: 100%;
+    max-width: 680px;
+    height: 312px;
+}
+.play-icon.hidden{
+    display: none;
+}
+
+
 
 
 
