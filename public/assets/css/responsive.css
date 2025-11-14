@@ -28,6 +28,58 @@
         padding: 0 16px;
     }
 
+    .service-advantages{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .service-advantages__image{
+        margin-right: unset;
+        height: 330px;
+        clip-path: polygon(100% 0, 63% 100%, 0% 100%, 0% 0%);
+    }
+    .service-advantages__content{
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 0%);
+        gap: 12px;
+    }
+
+    .service-advantages__item{
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 9% 0%);
+    }
+
+    .service-advantages__item-img{
+        height: 81px;
+    }
+
+    .service-advantages__content .service-advantages__item:nth-child(1) .service-advantages__item-img{
+        width: 86px;
+        background-position: center;
+        background-size: 65%;
+    }
+    .service-advantages__content .service-advantages__item:nth-child(2) .service-advantages__item-img{
+        width: 124px;
+        background-position: center;
+        background-size: 80%;
+    }
+    .service-advantages__content .service-advantages__item:nth-child(3) .service-advantages__item-img{
+        width:111px;
+        background-position: -35% center;
+        background-size: 130%;
+    }
+    .service-advantages__content .service-advantages__item:nth-child(4) .service-advantages__item-img{
+        width: 113px;
+        background-position:-40% center;
+        background-size: 150%;
+    }
+
+
+    .service-advantages__description{
+        min-width: unset;
+        width: 208px;
+        padding: 0 16px;
+    }
+
+
 }
 
 @media (max-width: 1220px) {
@@ -57,6 +109,10 @@
 
     .find-out-cost{
         gap: 0;
+    }
+
+    .rental-ATV-section{
+        gap: 32px;
     }
 }
 
@@ -736,7 +792,7 @@
         max-width: 100%;
     }
 
-    .page-section{
+    .business-tasks-section{
         padding: 32px 0;
     }
 
@@ -757,15 +813,24 @@
         margin-top: 16px;
     }
 
-
-
-
-
-
-
-
-
+    .page-top__btn{
+        height: 56px;
+    }
     /*END corporate*/
+
+    /*home page*/
+    .rental-ATV-section{
+        flex-direction: column;
+    }
+    .rental-ATV__content{
+        gap: 20px;
+    }
+    .rental-ATV__button{
+        max-width: 100%;
+    }
+    /*END home page*/
+
+
 
     .mb-show {
         display: flex;
@@ -781,4 +846,17 @@
         width: 100%;
         max-width: 340px;
     }
+
+    /*home page*/
+    .transport-section{
+        grid-template-columns: 100%;
+    }
+
+    .transport-section .transport__image{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*END home page*/
 }

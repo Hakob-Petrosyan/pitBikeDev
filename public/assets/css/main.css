@@ -1093,11 +1093,194 @@
     clip-path: polygon(0% 0, 84% 0, 100% 100%, 16% 100%);
     overflow: hidden;
 }
-
-
-
-
 /*END corporate*/
+
+/*home page*/
+.transport-section{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 12px;
+}
+
+.transport-section .transport__image{
+    width: 100%;
+    height: auto;
+    max-height: 512px;
+    aspect-ratio: unset;
+}
+
+.rental-ATV__content{
+    gap: 48px;
+    max-width: 580px;
+}
+
+.rental-ATV__text strong{
+    font-weight: 800;
+}
+
+.rental-ATV__button{
+    max-width: 295px;
+}
+
+.rental-ATV__image{
+    max-width: 567px;
+}
+
+.rental-ATV-section{
+    justify-content: end;
+    gap: 130px;
+}
+
+.service-advantages{
+    margin-top: 48px;
+}
+
+.service-advantages__image{
+    position: relative;
+    height: 764px;
+    clip-path: polygon(100% 0, 70% 100%, 0% 100%, 0% 0%);
+    margin-right: -15%;
+    width: 100%;
+}
+
+.service-advantages__content{
+    gap: 24px;
+    clip-path: polygon(100% 0, 100% 100%, 0% 100%, 30% 0%);
+    width: 100%;
+}
+
+.service-advantages__image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-advantages__item{
+    justify-content: end;
+}
+
+.service-advantages__item-img{
+    height: 173px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.service-advantages__content .service-advantages__item:nth-child(1) .service-advantages__item-img{
+    width: 184px;
+}
+.service-advantages__content .service-advantages__item:nth-child(2) .service-advantages__item-img{
+    width: 265px;
+}
+.service-advantages__content .service-advantages__item:nth-child(3) .service-advantages__item-img{
+    width: 342px;
+}
+.service-advantages__content .service-advantages__item:nth-child(4) .service-advantages__item-img{
+    width: 415px;
+}
+
+.service-advantages__item-img:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(51.33% 51.34% at 48.67% 50.51%, rgba(45, 45, 45, 0) 0%, #2D2D2D 100%);
+    pointer-events: none;
+}
+
+.service-advantages__description{
+    padding: 32px;
+    width: 355px;
+    min-width: 355px;
+}
+
+.main-top{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.main-top-slider__card{
+    height: 664px;
+    position: relative;
+}
+
+.main-top-slider__card img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-top-slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-top-slider__btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.page-top-slider__btn.left{
+    left: 50px;
+}
+
+.page-top-slider__btn.right{
+    right: 50px;
+}
+
+.main-top-slider__title{
+    width: 100%;
+    max-width: 752px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.main-top__title{
+    position: absolute;
+    top: 24px;
+    max-width:354px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    align-items: end;
+}
+
+.main-top__subtitle{
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+
+.main-top__nav{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    bottom: 144px;
+    z-index: 2;
+}
+
+.main-top-nav__list{
+    gap: 144px;
+    width: fit-content;
+}
+
+
+/*END home page*/
+
+
+
 
 
 .mb-show {
