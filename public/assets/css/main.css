@@ -173,7 +173,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-image: url("/assets/images/main/footer-word-logo.webp");
+    background-image: url("/assets/images/logos/footer-word-logo.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 0 26% 2% 39%;
@@ -1032,7 +1032,7 @@
     width: 100%;
 }
 
-.page-section{
+.business-tasks-section{
     padding: 40px 0;
 }
 
@@ -1063,6 +1063,36 @@
     display: none;
 }
 
+.trust-section{
+    padding: 40px 0 80px;
+}
+
+.trust-card__icon{
+    margin-top: 12px;
+}
+
+.trust-card__text{
+    margin-top: 24px;
+}
+
+.partner-logo{
+    width: 160px;
+    max-height: 90px;
+}
+
+.trust-card__content{
+    margin-top: 40px;
+    padding-left: 16%;
+}
+
+.trust-card__title{
+    gap: 4px;
+}
+
+.trust-card__image{
+    clip-path: polygon(0% 0, 84% 0, 100% 100%, 16% 100%);
+    overflow: hidden;
+}
 
 
 
